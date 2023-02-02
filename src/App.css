@@ -4,6 +4,10 @@
   margin  : 20px;
 }
 
+.Win {  border: 10px solid green;  color: green; }
+.lose {  border: 10px solid red;  color: red; }
+.tie {  border: 10px solid black;  color: black; }
+
 .item-img{
   width: 400px;
 }
@@ -17,4 +21,8 @@
 .main-button{
   display: flex;
   justify-content: center;
+}
+
+.btn{
+  margin: 10px;
 }
