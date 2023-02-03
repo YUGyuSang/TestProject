@@ -1,6 +1,7 @@
 import React from 'react'
 
 const ComputerBox = (props) => {
+    console.log("computer props:", props);
   return (
     <div className={`box ${props.result}`}>
         <h1>{props.title}</h1>
